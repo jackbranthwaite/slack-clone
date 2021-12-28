@@ -10,10 +10,8 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-@import '~assets/styles/config';
-
 .code {
-  background-color: $white;
+  background-color: #f6efe8;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
     sans-serif;

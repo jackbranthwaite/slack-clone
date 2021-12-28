@@ -1,5 +1,5 @@
 <template>
-  <div class="adiv"></div>
+  <div class="main-content"></div>
 </template>
 <script>
 import { defineComponent } from '@vue/composition-api'
