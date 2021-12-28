@@ -1,13 +1,14 @@
 <template>
-  <header class="header" />
+  <div class="adiv"></div>
 </template>
+<script>
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
+  setup() {}
+})
+</script>
 
 <style lang="scss" scoped>
 @import '~assets/styles/config';
-
-.header {
-  @include type(14px, 18px);
-
-  display: flex;
-}
 </style>

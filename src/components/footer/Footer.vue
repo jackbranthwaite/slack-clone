@@ -1,9 +1,11 @@
 <template>
-  <footer class="footer" />
+  <div class="adiv"></div>
 </template>
+<script>
+import { defineComponent } from '@vue/composition-api'
 
-<style lang="scss" scoped>
-.footer {
-  display: flex;
-}
-</style>
+export default defineComponent({
+  setup() {}
+})
+</script>
+
