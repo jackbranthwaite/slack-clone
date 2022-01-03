@@ -50,6 +50,10 @@ export default defineComponent({
   justify-content: center;
   outline: solid #611f69 1px;
   padding: 5px 10px;
+  transition: 0.5s ease-in;
+}
+.button-container:hover {
+  transform: scale(1.05);
 }
 .button-text {
   color: #611f69;

@@ -66,7 +66,8 @@ export default defineComponent({
   width: 80%;
 }
 .sign-in {
-  font-size: 16px;
+  color: #000;
+  font-size: 14px;
   text-decoration: none;
 }
 .logo {
@@ -74,6 +75,8 @@ export default defineComponent({
   width: 150px;
 }
 .menu-link {
+  color: #000;
+  font-size: 16px;
   text-decoration: none;
 }
 </style>
